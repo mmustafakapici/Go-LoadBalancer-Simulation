@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Proxy Load Balancer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to the Simple Proxy Load Balancer</h1>
+    <p>This server distributes incoming HTTP requests across multiple backend servers.</p>
+    <p>To test the load balancer, make requests to:</p>
+    <p><a href="http://localhost:8000" target="_blank">http://localhost:8000</a></p>
+    <p>Current backend servers:</p>
+    <ul>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.bing.com" target="_blank">Bing</a></li>
+        <li><a href="https://www.duckduckgo.com" target="_blank">DuckDuckGo</a></li>
+    </ul>
+</div>
+</body>
+</html>
